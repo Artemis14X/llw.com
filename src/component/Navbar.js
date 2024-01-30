@@ -17,7 +17,6 @@ function Nevbar() {
                             </li>
                             <li><a className="nav-link" href="Shop">สินค้า</a></li>
                             <li><a className="nav-link" href="About">เกี่ยวกับเรา</a></li>
-                            <li><a className="nav-link" href="services.html">แจ้งปัญหา</a></li>
                             <li><a className="nav-link" href="/Blog">ผลงานของเรา</a></li>
                             <li><a className="nav-link" href="Contact">ติดต่อเรา</a></li>
                         </ul>

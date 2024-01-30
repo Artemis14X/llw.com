@@ -18,7 +18,6 @@ export default function blog() {
                             </li>
                             <li><a className="nav-link" href="Shop">สินค้า</a></li>
                             <li><a className="nav-link" href="About">เกี่ยวกับเรา</a></li>
-                            <li><a className="nav-link" href="services.html">แจ้งปัญหา</a></li>
                             <li className="active"><a className="nav-link" href="/Blog">ผลงานของเรา</a></li>
                             <li><a className="nav-link" href="Contact">ติดต่อเรา</a></li>
                         </ul>
@@ -70,6 +69,7 @@ export default function blog() {
 								<div class="meta">
 									<span>by <a href="#">Kristin Watson</a></span> <span>on <a href="#">Dec 19, 2021</a></span>
 								</div>
+                                    <button className="btn btn-dark mt-2" style={{marginLeft: "30%", background:"red"}}><a className="text-white" href="contact">สอบถามราคา</a></button>
 							</div>
 						</div>
 					</div>
@@ -82,6 +82,7 @@ export default function blog() {
 								<div class="meta">
 									<span>by <a href="#">Robert Fox</a></span> <span>on <a href="#">Dec 15, 2021</a></span>
 								</div>
+                                    <button className="btn btn-dark mt-2" style={{marginLeft: "30%", background:"red"}}><a className="text-white" href="contact">สอบถามราคา</a></button>
 							</div>
 						</div>
 					</div>
@@ -90,10 +91,11 @@ export default function blog() {
 						<div class="post-entry">
 							<a href="#" class="post-thumbnail"><img src="images/แพ1.jpg" alt="Image" class="img-fluid"/></a>
 							<div class="post-content-entry">
-								<h3><a href="#">แพล้อยน้ำแบบ ขนาดและวัสดุตามสั่ง</a></h3>
+								<h3><a href="#">แพลอยน้ำแบบ ขนาดและวัสดุตามสั่ง</a></h3>
 								<div class="meta">
 									<span>by <a href="#">Kristin Watson</a></span> <span>on <a href="#">Dec 12, 2021</a></span>
 								</div>
+                                    <button className="btn btn-dark mt-2" style={{marginLeft: "30%", background:"red"}}><a className="text-white" href="contact">สอบถามราคา</a></button>
 							</div>
 						</div>
 					</div>
@@ -102,10 +104,11 @@ export default function blog() {
 						<div class="post-entry">
 							<a href="#" class="post-thumbnail"><img src="images/แพ-3.jpg" alt="Image" class="img-fluid"/></a>
 							<div class="post-content-entry">
-								<h3><a href="#">First Time Home Owner Ideas</a></h3>
+								<h3><a href="#">แพลอยน้ำ แบบมีตาข่ายนอนดูดาว</a></h3>
 								<div class="meta">
 									<span>by <a href="#">Kristin Watson</a></span> <span>on <a href="#">Dec 19, 2021</a></span>
 								</div>
+                                    <button className="btn btn-dark mt-2" style={{marginLeft: "30%", background:"red"}}><a className="text-white" href="contact">สอบถามราคา</a></button>
 							</div>
 						</div>
 					</div>
@@ -114,10 +117,11 @@ export default function blog() {
 						<div class="post-entry">
 							<a href="#" class="post-thumbnail"><img src="images/แพ4.jpg" alt="Image" class="img-fluid"/></a>
 							<div class="post-content-entry">
-								<h3><a href="#">How To Keep Your Furniture Clean</a></h3>
+								<h3><a href="#">แพลอยน้ำ วัสดุตามสั่ง</a></h3>
 								<div class="meta">
 									<span>by <a href="#">Robert Fox</a></span> <span>on <a href="#">Dec 15, 2021</a></span>
 								</div>
+                                    <button className="btn btn-dark mt-2" style={{marginLeft: "30%", background:"red"}}><a className="text-white" href="contact">สอบถามราคา</a></button>
 							</div>
 						</div>
 					</div>
@@ -126,10 +130,11 @@ export default function blog() {
 						<div class="post-entry">
 							<a href="#" class="post-thumbnail"><img src="images/img-1.jpg" alt="Image" class="img-fluid"/></a>
 							<div class="post-content-entry">
-								<h3><a href="#">Small Space Furniture Apartment Ideas</a></h3>
+								<h3><a href="#">แพลอยน้ำ แบบสะพานตาข่ายเหล็ก</a></h3>
 								<div class="meta">
 									<span>by <a href="#">Kristin Watson</a></span> <span>on <a href="#">Dec 12, 2021</a></span>
 								</div>
+                                    <button className="btn btn-dark mt-2" style={{marginLeft: "30%", background:"red"}}><a className="text-white" href="contact">สอบถามราคา</a></button>
 							</div>
 						</div>
 					</div>
@@ -138,10 +143,11 @@ export default function blog() {
 						<div class="post-entry">
 							<a href="#" class="post-thumbnail"><img src="images/img2.jpg" alt="Image" class="img-fluid"/></a>
 							<div class="post-content-entry">
-								<h3><a href="#">First Time Home Owner Ideas</a></h3>
+								<h3><a href="#">แพลอยน้ำตามสั่ง ขนาดและสะพาน</a></h3>
 								<div class="meta">
 									<span>by <a href="#">Kristin Watson</a></span> <span>on <a href="#">Dec 19, 2021</a></span>
 								</div>
+                                    <button className="btn btn-dark mt-2" style={{marginLeft: "30%", background:"red"}}><a className="text-white" href="contact">สอบถามราคา</a></button>
 							</div>
 						</div>
 					</div>
@@ -150,10 +156,11 @@ export default function blog() {
 						<div class="post-entry">
 							<a href="#" class="post-thumbnail"><img src="images/img4.jpg" alt="Image" class="img-fluid" /></a>
 							<div class="post-content-entry">
-								<h3><a href="#">How To Keep Your Furniture Clean</a></h3>
+								<h3><a href="#">แพลอยน้ำตามสั่ง</a></h3>
 								<div class="meta">
 									<span>by <a href="#">Robert Fox</a></span> <span>on <a href="#">Dec 15, 2021</a></span>
 								</div>
+                                    <button className="btn btn-dark mt-2" style={{marginLeft: "30%", background:"red"}}><a className="text-white" href="contact">สอบถามราคา</a></button>
 							</div>
 						</div>
 					</div>
@@ -162,10 +169,11 @@ export default function blog() {
 						<div class="post-entry">
 							<a href="#" class="post-thumbnail"><img src="images/img5.jpg" alt="Image" class="img-fluid" /></a>
 							<div class="post-content-entry">
-								<h3><a href="#">Small Space Furniture Apartment Ideas</a></h3>
+								<h3><a href="#">แพลอยน้ำ แบบ2ชั้น มีห้อง และดาดฟ้า</a></h3>
 								<div class="meta">
 									<span>by <a href="#">Kristin Watson</a></span> <span>on <a href="#">Dec 12, 2021</a></span>
 								</div>
+                                    <button className="btn btn-dark mt-2" style={{marginLeft: "30%", background:"red"}}><a className="text-white" href="contact">สอบถามราคา</a></button>
 							</div>
 						</div>
 					</div>
@@ -206,15 +214,15 @@ export default function blog() {
 
                     <div className="row g-5 mb-5">
                         <div className="col-lg-4">
-                            <div className="mb-4 footer-logo-wrap"><a href="#" className="footer-logo">แพลอยน้ำ ฉีดโฟมทุ่นลอยน้ำ พ่นโฟม<span>.</span></a></div>
+                            <div className="mb-4 footer-logo-wrap"><a href="/" className="footer-logo">แพลอยน้ำ ฉีดโฟมทุ่นลอยน้ำ พ่นโฟม<span>.</span></a></div>
                             <p className="mb-4">รับทำแพลอยน้ำ ฉีดโฟมทุ่นลอยน้ำ พ่นโฟม หลังคา ผนัง กำแพง ใต้ถุน ป้องกันความร้อน รักษาความเย็น 
                                 จำหน่าย และติดตั้ง ถังฉีดโฟม มือ1 มือสอง ราคาถูก ส่งทั่วประเทศ</p>
 
                             <ul className="list-unstyled custom-social">
                                 <li><a href="#"><span className="fa fa-brands fa-facebook-f"></span></a></li>
-                                <li><a href="#"><span className="fa fa-brands fa-twitter"></span></a></li>
+                                <li><a href="#"><span className="fa fa-brands fa-line"></span></a></li>
                                 <li><a href="#"><span className="fa fa-brands fa-instagram"></span></a></li>
-                                <li><a href="#"><span className="fa fa-brands fa-linkedin"></span></a></li>
+                                <li><a href="#"><span className="fa fa-brands fa-youtube"></span></a></li>
                             </ul>
                         </div>
 
@@ -222,16 +230,16 @@ export default function blog() {
                             <div className="row links-wrap">
                                 <div className="col-6 col-sm-6 col-md-3">
                                     <ul className="list-unstyled">
-                                        <li><a href="#">เกี่ยวกับเรา</a></li>
+                                        <li><a href="about">เกี่ยวกับเรา</a></li>
                                         <li><a href="#">บริการ</a></li>
-                                        <li><a href="#">ผลงาน</a></li>
-                                        <li><a href="#">ติดต่อเรา</a></li>
+                                        <li><a href="blog">ผลงาน</a></li>
+                                        <li><a href="contact">ติดต่อเรา</a></li>
                                     </ul>
                                 </div>
 
                                 <div className="col-6 col-sm-6 col-md-3">
                                     <ul className="list-unstyled">
-                                        <li><a href="#">ช่วยเหลือ</a></li>
+                                        <li><a href="contact">ช่วยเหลือ</a></li>
                                         <li><a href="#">....</a></li>
                                         <li><a href="#">Live chat</a></li>
                                     </ul>
@@ -239,8 +247,8 @@ export default function blog() {
 
                                 <div className="col-6 col-sm-6 col-md-3">
                                     <ul className="list-unstyled">
-                                        <li><a href="#">งานของเรา</a></li>
-                                        <li><a href="#">ทีมงาน</a></li>
+                                        <li><a href="blog">งานของเรา</a></li>
+                                        <li><a href="contact">ทีมงาน</a></li>
                                         <li><a href="/Shop">สินค้า</a></li>
                                         <li><a href="#">ข้อตกลง เงื่อนไข</a></li>
                                     </ul>
@@ -248,9 +256,9 @@ export default function blog() {
 
                                 <div className="col-6 col-sm-6 col-md-3">
                                     <ul className="list-unstyled">
-                                        <li><a href="#">ฉีดโฟมทุ่นลอยน้ำ</a></li>
-                                        <li><a href="#">แพลอยน้ำ</a></li>
-                                        <li><a href="#">จำหน่ายถังโฟม</a></li>
+                                        <li><a href="shop">ฉีดโฟมทุ่นลอยน้ำ</a></li>
+                                        <li><a href="shop">แพลอยน้ำ</a></li>
+                                        <li><a href="shop">จำหน่ายถังโฟม</a></li>
                                     </ul>
                                 </div>
                             </div>

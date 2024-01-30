@@ -33,17 +33,15 @@ function Footer() {
 
                     <div className="row g-5 mb-5">
                         <div className="col-lg-4">
-                            <div className="mb-4 footer-logo-wrap"><a href="#" className="footer-logo">แพลอยน้ำ ฉีดโฟมทุ่นลอยน้ำ พ่นโฟม<span>.</span></a></div>
-                            <p className="mb-4">
-                                รับทำแพลอยน้ำ ฉีดโฟมทุ่นลอยน้ำ พ่นโฟม หลังคา ผนัง กำแพง ใต้ถุน ป้องกันความร้อน รักษาความเย็น 
-                                จำหน่าย และติดตั้ง ถังฉีดโฟม มือ1 มือสอง ราคาถูก ส่งทั่วประเทศ
-                            </p>
+                            <div className="mb-4 footer-logo-wrap"><a href="/" className="footer-logo">แพลอยน้ำ ฉีดโฟมทุ่นลอยน้ำ พ่นโฟม<span>.</span></a></div>
+                            <p className="mb-4">รับทำแพลอยน้ำ ฉีดโฟมทุ่นลอยน้ำ พ่นโฟม หลังคา ผนัง กำแพง ใต้ถุน ป้องกันความร้อน รักษาความเย็น 
+                                จำหน่าย และติดตั้ง ถังฉีดโฟม มือ1 มือสอง ราคาถูก ส่งทั่วประเทศ</p>
 
                             <ul className="list-unstyled custom-social">
                                 <li><a href="#"><span className="fa fa-brands fa-facebook-f"></span></a></li>
-                                <li><a href="#"><span className="fa fa-brands fa-twitter"></span></a></li>
+                                <li><a href="#"><span className="fa fa-brands fa-line"></span></a></li>
                                 <li><a href="#"><span className="fa fa-brands fa-instagram"></span></a></li>
-                                <li><a href="#"><span className="fa fa-brands fa-linkedin"></span></a></li>
+                                <li><a href="#"><span className="fa fa-brands fa-youtube"></span></a></li>
                             </ul>
                         </div>
 
@@ -51,16 +49,16 @@ function Footer() {
                             <div className="row links-wrap">
                                 <div className="col-6 col-sm-6 col-md-3">
                                     <ul className="list-unstyled">
-                                        <li><a href="#">เกี่ยวกับเรา</a></li>
+                                        <li><a href="about">เกี่ยวกับเรา</a></li>
                                         <li><a href="#">บริการ</a></li>
-                                        <li><a href="#">ผลงาน</a></li>
-                                        <li><a href="#">ติดต่อเรา</a></li>
+                                        <li><a href="blog">ผลงาน</a></li>
+                                        <li><a href="contact">ติดต่อเรา</a></li>
                                     </ul>
                                 </div>
 
                                 <div className="col-6 col-sm-6 col-md-3">
                                     <ul className="list-unstyled">
-                                        <li><a href="#">ช่วยเหลือ</a></li>
+                                        <li><a href="contact">ช่วยเหลือ</a></li>
                                         <li><a href="#">....</a></li>
                                         <li><a href="#">Live chat</a></li>
                                     </ul>
@@ -68,8 +66,8 @@ function Footer() {
 
                                 <div className="col-6 col-sm-6 col-md-3">
                                     <ul className="list-unstyled">
-                                        <li><a href="#">งานของเรา</a></li>
-                                        <li><a href="#">ทีมงาน</a></li>
+                                        <li><a href="blog">งานของเรา</a></li>
+                                        <li><a href="contact">ทีมงาน</a></li>
                                         <li><a href="/Shop">สินค้า</a></li>
                                         <li><a href="#">ข้อตกลง เงื่อนไข</a></li>
                                     </ul>
@@ -77,9 +75,9 @@ function Footer() {
 
                                 <div className="col-6 col-sm-6 col-md-3">
                                     <ul className="list-unstyled">
-                                        <li><a href="#">ฉีดโฟมทุ่นลอยน้ำ</a></li>
-                                        <li><a href="#">แพลอยน้ำ</a></li>
-                                        <li><a href="#">จำหน่ายถังโฟม</a></li>
+                                        <li><a href="shop">ฉีดโฟมทุ่นลอยน้ำ</a></li>
+                                        <li><a href="shop">แพลอยน้ำ</a></li>
+                                        <li><a href="shop">จำหน่ายถังโฟม</a></li>
                                     </ul>
                                 </div>
                             </div>

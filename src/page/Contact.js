@@ -19,7 +19,6 @@ export default function Contact() {
                             </li>
                             <li><a className="nav-link" href="Shop">สินค้า</a></li>
                             <li><a className="nav-link" href="About">เกี่ยวกับเรา</a></li>
-                            <li><a className="nav-link" href="services.html">แจ้งปัญหา</a></li>
                             <li><a className="nav-link" href="blog">ผลงานของเรา</a></li>
                             <li className="active"><a className="nav-link" href="Contact">ติดต่อเรา</a></li>
                         </ul>
@@ -40,9 +39,9 @@ export default function Contact() {
                     <div className="row justify-content-between">
                         <div className="col-lg-5">
                             <div className="intro-excerpt">
-                                <h1>ทำแพลอยน้ำ <span clsas="d-block">ฉีดโฟมทุ่นลอยน้ำ</span></h1>
+                                <h1>ติดต่อเรา</h1>
                                 <p className="mb-4">รับสร้างแพลอยน้ำ ฉีดโฟมทุ่นลอยน้ำ จำหน่ายถังฉีดโฟม ทุ่นแพสูบน้ำ ทุ่นลอยน้ำ รับอุดรอยรั่ว ซ่อมแซมแพสูบน้ำ รับซ่อมทุ่นรั่ว ทุ่นแตก ทุ่นชำรุด เสื่อมสภาพป้องกันน้ำเข้าทุ่น แพจม แพเอียง พ่นโฟมหลังคา พ่นโฟมกันร้อน</p>
-                                <p><a href="/Shop" className="btn btn-secondary me-2">สินค้า</a><a href="#" className="btn btn-white-outline">สำรวจ</a></p>
+                                <p><a href="/Shop" className="btn btn-secondary me-2">สินค้า</a><a href="blog" className="btn btn-white-outline">สำรวจ</a></p>
                             </div>
                         </div>
                         <div className="col-lg-7">
@@ -164,7 +163,7 @@ export default function Contact() {
 
                     <div className="row g-5 mb-5">
                         <div className="col-lg-4">
-                            <div className="mb-4 footer-logo-wrap"><a href="#" className="footer-logo">แพลอยน้ำ ฉีดโฟมทุ่นลอยน้ำ พ่นโฟม<span>.</span></a></div>
+                            <div className="mb-4 footer-logo-wrap"><a href="/" className="footer-logo">แพลอยน้ำ ฉีดโฟมทุ่นลอยน้ำ พ่นโฟม<span>.</span></a></div>
                             <p className="mb-4">รับทำแพลอยน้ำ ฉีดโฟมทุ่นลอยน้ำ พ่นโฟม หลังคา ผนัง กำแพง ใต้ถุน ป้องกันความร้อน รักษาความเย็น 
                                 จำหน่าย และติดตั้ง ถังฉีดโฟม มือ1 มือสอง ราคาถูก ส่งทั่วประเทศ</p>
 
@@ -180,16 +179,16 @@ export default function Contact() {
                             <div className="row links-wrap">
                                 <div className="col-6 col-sm-6 col-md-3">
                                     <ul className="list-unstyled">
-                                        <li><a href="#">เกี่ยวกับเรา</a></li>
+                                        <li><a href="about">เกี่ยวกับเรา</a></li>
                                         <li><a href="#">บริการ</a></li>
-                                        <li><a href="#">ผลงาน</a></li>
-                                        <li><a href="#">ติดต่อเรา</a></li>
+                                        <li><a href="blog">ผลงาน</a></li>
+                                        <li><a href="contact">ติดต่อเรา</a></li>
                                     </ul>
                                 </div>
 
                                 <div className="col-6 col-sm-6 col-md-3">
                                     <ul className="list-unstyled">
-                                        <li><a href="#">ช่วยเหลือ</a></li>
+                                        <li><a href="contact">ช่วยเหลือ</a></li>
                                         <li><a href="#">....</a></li>
                                         <li><a href="#">Live chat</a></li>
                                     </ul>
@@ -197,8 +196,8 @@ export default function Contact() {
 
                                 <div className="col-6 col-sm-6 col-md-3">
                                     <ul className="list-unstyled">
-                                        <li><a href="#">งานของเรา</a></li>
-                                        <li><a href="#">ทีมงาน</a></li>
+                                        <li><a href="blog">งานของเรา</a></li>
+                                        <li><a href="contact">ทีมงาน</a></li>
                                         <li><a href="/Shop">สินค้า</a></li>
                                         <li><a href="#">ข้อตกลง เงื่อนไข</a></li>
                                     </ul>
@@ -206,9 +205,9 @@ export default function Contact() {
 
                                 <div className="col-6 col-sm-6 col-md-3">
                                     <ul className="list-unstyled">
-                                        <li><a href="#">ฉีดโฟมทุ่นลอยน้ำ</a></li>
-                                        <li><a href="#">แพลอยน้ำ</a></li>
-                                        <li><a href="#">จำหน่ายถังโฟม</a></li>
+                                        <li><a href="shop">ฉีดโฟมทุ่นลอยน้ำ</a></li>
+                                        <li><a href="shop">แพลอยน้ำ</a></li>
+                                        <li><a href="shop">จำหน่ายถังโฟม</a></li>
                                     </ul>
                                 </div>
                             </div>

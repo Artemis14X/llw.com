@@ -13,7 +13,7 @@ function product() {
                         </div>
 
                         <div className="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-                            <a className="product-item bg-primary bg-gradient" style={{ borderRadius: "20px"}} href="car">
+                            <a className="product-item bg-primary bg-gradient" style={{ borderRadius: "20px"}} href="shop">
                                 <img src="images/F1.jpg" className="img-fluid product-thumbnail" style={{borderRadius: "20px 20px 0px 0px"}} />
                                 <h3 className="product-title">ถังฉีดโฟมมือสอง</h3>
                                 <strong className="product-price">1,550 บาท</strong>
@@ -25,7 +25,7 @@ function product() {
                         </div>
 
                         <div className="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-                            <a className="product-item bg-primary bg-gradient " style={{ borderRadius: "20px"}} href="cart.html">
+                            <a className="product-item bg-primary bg-gradient " style={{ borderRadius: "20px"}} href="shop">
                                 <img src="images/โฟมมือ2.jpg" className="img-fluid product-thumbnail" style={{borderRadius: "20px 20px 0px 0px"}} />
                                 <h3 className="product-title">ถังฉีดโฟมมือสอง แบบ2 ขอบ บน/ล่าง</h3>
                                 <strong className="product-price">1,600 บาท</strong>
@@ -37,7 +37,7 @@ function product() {
                         </div>
 
                         <div className="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-                            <a className="product-item bg-primary bg-gradient" style={{ borderRadius: "20px"}} href="cart.html">
+                            <a className="product-item bg-primary bg-gradient" style={{ borderRadius: "20px"}} href="shop">
                                 <img src="images/tnnew.jpg" className="img-fluid product-thumbnail" style={{borderRadius: "20px 20px 0px 0px"}} />
                                 <h3 className="product-title">ถังฉีดโฟมมือ1</h3>
                                 <strong className="product-price">2,100 บาท</strong>

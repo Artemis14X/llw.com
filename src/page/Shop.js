@@ -17,7 +17,6 @@ export default function Header() {
             </li>
             <li className="active"><a className="nav-link" href="Shop">สินค้า</a></li>
             <li><a className="nav-link" href="About">เกี่ยวกับเรา</a></li>
-            <li><a className="nav-link" href="services.html">แจ้งปัญหา</a></li>
             <li><a className="nav-link" href="blog">ผลงานของเรา</a></li>
             <li><a className="nav-link" href="/Contact">ติดต่อเรา</a></li>
         </ul>
@@ -55,7 +54,7 @@ export default function Header() {
 
                         {/* <!-- Start Column 1 --> */}
                         <div className="col-12 col-md-4 col-lg-3 mb-5">
-                            <a className="product-item bg-primary bg-gradient" style={{ borderRadius: "15px"}} href="#">
+                            <a className="product-item bg-primary bg-gradient" style={{ borderRadius: "15px"}} href="cart">
                                 <img src="images/F1.jpg" className="img-fluid product-thumbnail " style={{ borderRadius: "15px 15px 0px 0px"}} />
                                 <h3 className="product-title">ถังมือสอง แบบ1ขอบ (บน)</h3>
                                 <p classNameName="bg-danger text-white" style={{ borderRadius: "6px"}}>***สำคัญ สอบถามก่อนสั่งซื้อทุกครั้ง</p>
@@ -70,7 +69,7 @@ export default function Header() {
 						
 					<!-- Start Column 2 --> */}
                         <div className="col-12 col-md-4 col-lg-3 mb-5">
-                            <a className="product-item bg-primary bg-gradient" style={{ borderRadius: "15px"}} href="#">
+                            <a className="product-item bg-primary bg-gradient" style={{ borderRadius: "15px"}} href="cart">
                                 <img src="images/โฟมมือ2.jpg" className="img-fluid product-thumbnail" style={{ borderRadius: "15px 15px 0px 0px"}} />
                                 <h3 className="product-title">ถังมือสอง แบบ2ขอบ (บน/ล่าง)</h3>
                                 <p classNameName="bg-danger text-white" style={{ borderRadius: "6px"}}>***สำคัญ สอบถามก่อนสั่งซื้อทุกครั้ง</p>
@@ -85,7 +84,7 @@ export default function Header() {
 
 					<!-- Start Column 3 --> */}
                         <div className="col-12 col-md-4 col-lg-3 mb-5">
-                            <a className="product-item bg-primary bg-gradient" style={{ borderRadius: "15px"}} href="#">
+                            <a className="product-item bg-primary bg-gradient" style={{ borderRadius: "15px"}} href="cart">
                                 <img src="images/tnnew.jpg" className="img-fluid product-thumbnail" style={{ borderRadius: "15px 15px 0px 0px"}} />
                                 <h3 className="product-title">ถังฉีดโฟมมือ1</h3>
                                 <p classNameName="bg-danger text-white" style={{ borderRadius: "6px"}}>***สำคัญ สอบถามก่อนสั่งซื้อทุกครั้ง</p>
@@ -140,7 +139,7 @@ export default function Header() {
 
                     					{/* <!-- Start Column 1 --> */}
                         <div className="col-12 col-md-4 col-lg-3 mb-5">
-                            <a className="product-item" href="#">
+                            <a className="product-item" href="contact">
                                 <img src="images/แพ1.jpg" className="img-fluid product-thumbnail" style={{ borderRadius: "10px"}} />
                                 <h3 className="product-title">แพลอยน้ำ xxx</h3>
                                 <h3><span>ขนาดตาม สั่งลูกค้า</span></h3>
@@ -156,7 +155,7 @@ export default function Header() {
 
                 {/* <!-- Start Column 2 --> */} 
                         <div className="col-12 col-md-4 col-lg-3 mb-5">
-                            <a className="product-item" href="#">
+                            <a className="product-item" href="contact">
                                 <img src="images/แพ2.jpg" className="img-fluid product-thumbnail" style={{ borderRadius: "10px"}} />
                                 <h3 className="product-title">แพลอยน้ำขนาด 5x5</h3>
                                 <h3><span>สะพาน 8 เมตร มีหลังคา</span></h3>
@@ -170,7 +169,7 @@ export default function Header() {
 
 					<!-- Start Column 3 --> */}
                         <div className="col-12 col-md-4 col-lg-3 mb-5">
-                            <a className="product-item" href="#">
+                            <a className="product-item" href="contact">
                                 <img src="images/แพ-3.jpg" className="img-fluid product-thumbnail" style={{ borderRadius: "10px"}} />
                                 <h3 className="product-title">แพขนาด 4x4</h3>
                                 <h3><span>มีตาข่ายนอนดูดาว สะพาน 5 เมตร</span></h3>
@@ -185,7 +184,7 @@ export default function Header() {
 
                         {/* <!-- Start Column 4 --> */}
                         <div className="col-12 col-md-4 col-lg-3 mb-5">
-                            <a className="product-item" href="#">
+                            <a className="product-item" href="contact">
                                 <img src="images/แพ4.jpg" className="img-fluid product-thumbnail" style={{ borderRadius: "10px"}} />
                                 <h3 className="product-title">แพลอยน้ำ</h3>
                                 <h3><span>ขนาด ตามสั่งลูกค้า</span></h3>
@@ -243,17 +242,15 @@ export default function Header() {
 
                     <div className="row g-5 mb-5">
                         <div className="col-lg-4">
-                            <div className="mb-4 footer-logo-wrap"><a href="#" className="footer-logo">แพลอยน้ำ ฉีดโฟมทุ่นลอยน้ำ พ่นโฟม<span>.</span></a></div>
-                            <p className="mb-4">
-                            รับทำแพลอยน้ำ ฉีดโฟมทุ่นลอยน้ำ พ่นโฟม หลังคา ผนัง กำแพง ใต้ถุน ป้องกันความร้อน รักษาความเย็น 
-                            จำหน่าย และติดตั้ง ถังฉีดโฟม มือ1 มือสอง ราคาถูก ส่งทั่วประเทศ
-                            </p>
+                            <div className="mb-4 footer-logo-wrap"><a href="/" className="footer-logo">แพลอยน้ำ ฉีดโฟมทุ่นลอยน้ำ พ่นโฟม<span>.</span></a></div>
+                            <p className="mb-4">รับทำแพลอยน้ำ ฉีดโฟมทุ่นลอยน้ำ พ่นโฟม หลังคา ผนัง กำแพง ใต้ถุน ป้องกันความร้อน รักษาความเย็น 
+                                จำหน่าย และติดตั้ง ถังฉีดโฟม มือ1 มือสอง ราคาถูก ส่งทั่วประเทศ</p>
 
                             <ul className="list-unstyled custom-social">
                                 <li><a href="#"><span className="fa fa-brands fa-facebook-f"></span></a></li>
-                                <li><a href="#"><span className="fa fa-brands fa-twitter"></span></a></li>
+                                <li><a href="#"><span className="fa fa-brands fa-line"></span></a></li>
                                 <li><a href="#"><span className="fa fa-brands fa-instagram"></span></a></li>
-                                <li><a href="#"><span className="fa fa-brands fa-linkedin"></span></a></li>
+                                <li><a href="#"><span className="fa fa-brands fa-youtube"></span></a></li>
                             </ul>
                         </div>
 
@@ -261,16 +258,16 @@ export default function Header() {
                             <div className="row links-wrap">
                                 <div className="col-6 col-sm-6 col-md-3">
                                     <ul className="list-unstyled">
-                                        <li><a href="#">เกี่ยวกับเรา</a></li>
+                                        <li><a href="about">เกี่ยวกับเรา</a></li>
                                         <li><a href="#">บริการ</a></li>
-                                        <li><a href="#">ผลงาน</a></li>
-                                        <li><a href="#">ติดต่อเรา</a></li>
+                                        <li><a href="blog">ผลงาน</a></li>
+                                        <li><a href="contact">ติดต่อเรา</a></li>
                                     </ul>
                                 </div>
 
                                 <div className="col-6 col-sm-6 col-md-3">
                                     <ul className="list-unstyled">
-                                        <li><a href="#">ช่วยเหลือ</a></li>
+                                        <li><a href="contact">ช่วยเหลือ</a></li>
                                         <li><a href="#">....</a></li>
                                         <li><a href="#">Live chat</a></li>
                                     </ul>
@@ -278,18 +275,18 @@ export default function Header() {
 
                                 <div className="col-6 col-sm-6 col-md-3">
                                     <ul className="list-unstyled">
-                                        <li><a href="#">งานของเรา</a></li>
-                                        <li><a href="#">ทีมงาน</a></li>
-                                        <li><a href="#">สินค้า</a></li>
+                                        <li><a href="blog">งานของเรา</a></li>
+                                        <li><a href="contact">ทีมงาน</a></li>
+                                        <li><a href="/Shop">สินค้า</a></li>
                                         <li><a href="#">ข้อตกลง เงื่อนไข</a></li>
                                     </ul>
                                 </div>
 
                                 <div className="col-6 col-sm-6 col-md-3">
                                     <ul className="list-unstyled">
-                                        <li><a href="#">ฉีดโฟมทุ่นลอยน้ำ</a></li>
-                                        <li><a href="#">แพลอยน้ำ</a></li>
-                                        <li><a href="#">จำหน่ายถังโฟม</a></li>
+                                        <li><a href="shop">ฉีดโฟมทุ่นลอยน้ำ</a></li>
+                                        <li><a href="shop">แพลอยน้ำ</a></li>
+                                        <li><a href="shop">จำหน่ายถังโฟม</a></li>
                                     </ul>
                                 </div>
                             </div>
